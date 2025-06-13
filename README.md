@@ -1,1 +1,2 @@
 # Diffusion-model-image-generation
+This repository contains a complete PyTorch implementation of a Denoising Diffusion Probabilistic Model (DDPM)trained on the MNIST dataset using a U-Net architectural structure. The project is based on the theoretical framework introduced by Ho et al. (2020) and uses the DDPMScheduler from the Hugging Face diffusers library to manage the forward and reverse noise schedules. It includes support for multiple noise schedules, visualization utilities, and hyperparameter optimization via Optuna.
